@@ -8,22 +8,23 @@ body {
     background-attachment: fixed;
     /* scroll-behavior: smooth; */
     height: 100vh;
-    /* overflow: hidden */
+    overflow: hidden
     }
 h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    font-size: 23px;
-    color:#67bab9;
+    font-size: 30px;
+    color:#016a68;
     text-align:center;
-    padding-top:5%
+    padding-top:2%;
+    padding-bottom:2%
     }
 h3 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 25px;
     font-variant: cursive;
-    color:#67bab9;
+    color:#016a68;
     text-align:center;
     padding-top:2%;
     padding-bottom:2%
@@ -88,17 +89,17 @@ h6 {
 .site-footer {
     /* background-color:black;
     opacity:90%; */
-    font-size:14px;
+    font-size: 3rem;
     color:#9cdedd;
     position: fixed;
     bottom: 0;
     width:100%
     }
 .site-footer .social-icons {
-    text-align:right
+    text-align:center
     }
 .site-footer .social-icons a{
-    width:70px;
+    width:150px;
     height:50px;
     line-height:auto;
     padding-top:2px;
@@ -123,10 +124,10 @@ h6 {
 .social-icons a{
     background-color:#eceeef;
     color:#01817f;
-    font-size:22px;
+    font-size:2rem;
     display:inline-block;
     /* line-height:40px; */
-    width: 45px;
+    width: 100px;
     height:45px;
     text-align:center;
     text-decoration:none;
@@ -388,7 +389,7 @@ nav li {
     padding: 0 5px 0 5px;
     position: relative;
     width: 150%;
-    font-size: 14px;
+    font-size: 20px;
 }
 nav a {
     color: #015968;
@@ -459,7 +460,7 @@ cursor: pointer;
 }
 
 .fixed_header {
-width: 400px;
+width: 100%;
 table-layout: fixed;
 border-collapse: collapse;
 }
@@ -467,10 +468,11 @@ border-collapse: collapse;
 display: block;
 width: 100%;
 overflow: auto;
-height: 350px;
+height: 740px;
 }
 .fixed_header thead tr {
 display: block;
+height: 50px;
 }
 .fixed_header thead {
 background: black;
@@ -479,14 +481,14 @@ color: #fff;
 .fixed_header th {
 padding: 20px;
 text-align: left;
-/* height: 50px; */
-width: 250px;        
+height: 50px;
+width: 340px;        
 }
 .fixed_header td {
 padding: 20px;
 text-align: center;
-/* height: 50px; */
-width: 60px;
+height: 50px;
+width: 120px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
