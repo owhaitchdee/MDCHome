@@ -10,6 +10,15 @@ body {
     height: 100vh;
     overflow: hidden
     }
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color:#ffffff;
+    text-align:left;
+    padding-top:3%;
+    padding-bottom:2%
+    }
 h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
@@ -93,13 +102,14 @@ h6 {
     color:#9cdedd;
     position: fixed;
     bottom: 0;
-    width:100%
+    width:100%;
+    padding: 0px 40px
     }
 .site-footer .social-icons {
     text-align:center
     }
 .site-footer .social-icons a{
-    width:150px;
+    width:120px;
     height:50px;
     line-height:auto;
     padding-top:2px;
@@ -566,4 +576,43 @@ width: 120px;
     border-radius: 4px;
     color:white;
     padding: 2px;
+}
+
+
+.report {
+width: 100%;
+table-layout: fixed;
+border-collapse: collapse;
+color:white !important;
+}
+.report tbody {
+    color:#fff;
+}
+.report thead tr {
+height: 50px;
+color:#fff;
+text-align:center;
+justify-content: center;
+}
+.report thead {
+color: #fff;
+text-align:center;
+font-weight:600;
+font-size:22px;
+background-color: rgb(1, 169, 1); 
+border:none
+}
+.report th  {
+text-align: center;
+height: 50px;
+color:#fff;
+vertical-align: middle !important;
+font-weight:500;
+font-size:16px;
+}
+.report td {
+text-align: center;
+height: 50px;
+color:white;
+vertical-align: middle !important;
 }
