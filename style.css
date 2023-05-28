@@ -1,19 +1,13 @@
 body {
-    background-color: black;
-    /* background-image: url(images/bg.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-attachment: fixed;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
     height: 100vh;
-    overflow: hidden
+    overflow-y:hidden;
     }
 h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    font-size: 28px;
+    font-size: 30px;
     color:#ffffff;
     text-align:left;
     padding-top:3%;
@@ -22,7 +16,7 @@ h1 {
 h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 28px;
     color:#016a68;
     text-align:center;
     padding-top:2%;
@@ -41,15 +35,14 @@ h3 {
 h4 {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 23px;
     color:#303031;
     text-align:center;
     padding-top:2%;
     }
 h5 {
     font-family: 'Nunito', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
+    font-size: 22px;
     color:#303031;
     text-align:center;
     }
@@ -57,9 +50,9 @@ h5 {
 h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
-    font-size:20px;
-    color:rgb(245, 248, 250);
-    text-align:center;
+    font-size:22px;
+    color:#303031;
+    text-align:left;
     padding-top:2%
     }
 .glow {
@@ -103,7 +96,7 @@ h6 {
     position: fixed;
     bottom: 0;
     width:100%;
-    padding: 5px 40px 10px
+    padding: 0px 25px 0px 25px
     }
 .site-footer .social-icons {
     text-align:center
@@ -122,7 +115,7 @@ h6 {
     }
 .social-icons li {
     display:inline-block;
-    margin-bottom:4px
+    /* margin-bottom:4px */
     }
 .social-icons li.title {
     /* margin-right:15px; */
@@ -138,11 +131,11 @@ h6 {
     display:inline-block;
     /* line-height:40px; */
     width: 100px;
-    height:45px;
+    height: 45px;
     text-align:center;
     text-decoration:none;
     letter-spacing: 0px;
-    margin-right:8px;
+    /* margin-right:8px; */
     border-radius:100%;
     -webkit-transition:all .2s linear;
     -o-transition:all .2s linear;
@@ -394,18 +387,19 @@ nav ul {
     padding: 0;
 }
 nav li {
-    float: left;
+    float: right;
     margin: 0;
     padding: 0 5px 0 5px;
     position: relative;
-    width: 150%;
+    /* width: 100%; */
     font-size: 20px;
 }
 nav a {
     color: #015968;
     display: block;
     padding: 0 5px 0 5px;
-    text-align: left;
+    text-align: right;
+    font-size:25px;
     text-decoration: none;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
@@ -478,13 +472,13 @@ border-collapse: collapse;
 display: block;
 width: 100%;
 overflow: auto;
-height: 800px;
-font-size:22px;
+height: 700px;
+font-size:25px;
 }
 .fixed_header thead tr {
 display: block;
 height: 60px;
-font-size: 20px;
+font-size: 25px;
 font-weight: 600;
 }
 .fixed_header thead {
@@ -495,17 +489,19 @@ vertical-align: middle;
 }
 .fixed_header th {
 padding: 22px;
+font-size:25px;
 text-align: left;
 vertical-align: middle;
 height: 60px;
-width: 340px;        
+width: 400px;        
 }
 .fixed_header td {
-padding: 22px;
+padding:25px;
+font-size: 25px;
 text-align: center;
 vertical-align: middle;
 height: 60px;
-width: 150px;
+width: 200px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

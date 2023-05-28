@@ -19,7 +19,7 @@
     <div class="container-fluid" style="padding-left: 2%; padding-right: 2%; padding-top:5px; padding-bottom:5px">
       <button type="button" onclick="history.back()" style="border:none; font-size:35px;color:#35828e;background-color:#c9f5f4;">
         <i class="fa-solid fa-arrow-left"></i></button>
-      <a href="index.html" style="font-size: 30px; color:#024550;font-weight: 500; float:left;">Post Call</a>        
+      <a href="index.html" style="font-size: 30px; color:#024550;font-weight: 500; text-align:left;">Market Research</a>        
         <div class="float-end">
         <!-- <button class="btn" role="button" style="font-size:35px" ><i class="fa-solid fa-clipboard-list"></i></button> -->
       </div>
@@ -28,7 +28,8 @@
 
   <!--Call Recording Details-->
   <div class="container" style="padding-right:4%;padding-left:4%">
-    <table class="table" style="line-height:35px; border-color:#fff; text-align:left;margin-top:20px;margin-bottom:25px;font-size: 22px">      <tr>
+    <table class="table" style="line-height:35px; border-color:#fff; text-align:left;margin-top:20px;margin-bottom:25px;font-size: 22px">
+      <tr>
         <td style="vertical-align: bottom"> MD Name:</td>
         <th><h3 style="text-align:left; margin:0px; margin-top:-7px; padding-bottom:0px; vertical-align:middle;"> Carlos, Juan</h3></th>
       </tr>
@@ -49,46 +50,50 @@
         <td> Unaware to Aware</td>
       </tr>
     </table>
-    <div class="container-fluid" style="padding:0% 0%">
+    <div class="container-fluid" style="padding:2% 0%">
       <table class="table" style="font-size: 18px;width:100%;text-align: left;vertical-align: middle;">
         <thead style="text-align:center;font-weight:600;font-size: 18px;   background-color: #9cdedd;">
-          <td> ACTIVITY</td>
-          <td> DETAILS</td>
+          <td> QUESTION</td>
+          <td> ANSWER</td>
         </thead>
-        <tr style="vertical-align: top;">
-          <th style="text-align: left;padding-left: 20px;">Product Detailing</th>
-          <td>Product 1<br>Product 2</td>
+        <tr style="text-align: center;">
+          <td style="text-align: left;padding-left:20px;">Did the doctor report side effects? </td>
+          <td style="padding:20px 0px">
+            <select style="font-size:22px" class="form-control form-control-lg" aria-label="Default select example">
+              <option selected>Select</option>
+              <option value="2">Yes</option>
+              <option value="3">No</option>
+            </select>  
+          </td>
         </tr>
-        <tr style="vertical-align: top;">
-         <th style="text-align: left;padding-left:20px;">Market Research</th>
-          <td>Did doctor report side effects? No </td>
+        <tr style="text-align: center">
+          <td style="text-align: left;padding-left:20px;"> Patient feedback regarding our product's efficacy</td>
+          <td style="padding:20px 0px;"><input type="text" class="form-control form-control-lg" style="width:250px;height:70px;font-size:22px">
+          </td>
         </tr>
-        <tr style="vertical-align: top;">
-          <th style="text-align: left;padding-left:20px;">Product Samples</th>
-          <td>Product Sample 1: <span style="padding-left:10px">5</span><br>
-              Product Sample 2: <span style="padding-left:10px">5</span></td>
+        <tr style="text-align: center">
+          <td style="text-align: left;padding-left:20px;"> Patient feedback regarding our product's pricing</td>
+          <td style="padding:20px 0px;"><input type="text" class="form-control form-control-lg" style="width:250px;height:70px;font-size:22px">
+          </td>
         </tr>
-        <tr style="vertical-align: top;">
-          <th style="text-align: left;padding-left:20px;">Joint Call</th>
-          <td>with District Manager</td>
+        <tr style="text-align: center">
+          <td style="text-align: left;padding-left:20px;"> Thoughts on  product's effectiveness compared to competitors </td>
+          <td style="padding:20px 0px;"><input type="text" class="form-control form-control-lg" style="width:250px;height:70px;font-size:22px">
+          </td>
         </tr>
       </table>
     </div>
 
-    <div class="container-fluid" style="margin-top:30px">
-      <h5 style="text-align:left;font-size:20px">Post Call Analysis: </h5>
-      <div class="container" style="border:solid; border-radius:20px; border-width: 1px; border-color: rgb(18, 162, 162); width:640px; height:130px;">
+    <div class="container-fluid">
+      <h5 style="text-align:left;font-size:20px">MD Behavior: </h5>
+      <div class="container" style="border:solid; border-radius:20px; border-width: 1px; border-color: rgb(18, 162, 162); width:640px; height:150px;">
       </div>
-    </div>
-    <div class="container-fluid" style="margin-top:20px">
-      <h5 style="text-align:left;font-size:20px">Next Call Objective: </h5>
-      <div class="container" style="border:solid; border-radius:20px; border-width: 1px; border-color: rgb(18, 162, 162); width:640px; height:130px;">
     </div>
     <div class="container" style="padding: 30px;">
       <center>
-      <a class="btn btn-primary" href="mdlist.html">SUBMIT</a>
+      <a class="btn btn-primary" href="call3.html">DONE</a>
     </div>
-  </div>
+  </div> 
 </body>
 <script src="conv.js" crossorigin="anonymous"></script>
 </html>

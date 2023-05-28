@@ -19,16 +19,33 @@
     <div class="container-fluid" style="padding-left: 2%; padding-right: 2%; padding-top:5px; padding-bottom:5px">
       <button type="button" onclick="history.back()" style="border:none; font-size:35px;color:#35828e;background-color:#c9f5f4;">
         <i class="fa-solid fa-arrow-left"></i></button>
-      <a href="index.html" style="font-size: 30px; color:#024550;font-weight: 500; float:left;">Call Activities</a>        
+      <a href="index.html" style="font-size: 30px; color:#024550;font-weight: 500; text-align:left;">Product Detailing</a>        
         <div class="float-end">
         <!-- <button class="btn" role="button" style="font-size:35px" ><i class="fa-solid fa-clipboard-list"></i></button> -->
       </div>
     </div>
   </nav>
 
+  <div class="modal fade" id="PDF" role="dialog">
+    <div class="modal-dialog modal-dialog-centered justify-content-center">
+      <div class="modal-content" style="background-color:rgb(254, 254, 254);">
+        <div class="modal-header" style="height:50px">
+          <h4 style="text-align:center;margin-top:2%">Product1 PDF</h4>
+          <button type="button" class="close" data-dismiss="modal" id="close1" style="border:none; background:none">&times;</button>
+        </div>
+        <img src="images/pdfsample.png" style="width:95%"/>
+        <div class="modal-footer justify-content-center">
+          <a class="btn btn-primary" style="width: 100px;" href="calldetail2.html">DONE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--Call Recording Details-->
   <div class="container" style="padding-right:4%;padding-left:4%">
-    <table class="table" style="line-height:35px; border-color:#fff; text-align:left;margin-top:20px;margin-bottom:25px;font-size: 22px">        <td style="vertical-align: bottom"> MD Name:</td>
+    <table class="table" style="line-height:35px; border-color:#fff; text-align:left;margin-top:20px;margin-bottom:25px;font-size: 20px">
+      <tr>
+        <td style="vertical-align: bottom"> MD Name:</td>
         <th><h3 style="text-align:left; margin:0px; margin-top:-7px; padding-bottom:0px; vertical-align:middle;"> Carlos, Juan</h3></th>
       </tr>
       <tr>
@@ -51,61 +68,53 @@
     <div class="container-fluid" style="padding:2% 0%">
       <table class="table" style="font-size: 18px;width:100%;text-align: left;vertical-align: middle;">
         <thead style="text-align:center;font-weight:600;font-size: 18px;   background-color: #9cdedd;">
-          <td> ACTIVITY</td>
-          <td> DONE?</td>
-          <td></td>
+          <td> PRODUCT</td>
+          <td> VIEW</td>
+          <td> RANK</td>
         </thead>
         <tr style="text-align: center">
-          <th style="text-align: left;padding-left:50px;">Product Detailing</th>
-          <td style="font-size:30px"><a href="calldetail.html">
-            <i class="fa-regular fa-square"></i></a></td>
+         <th style="text-align: left;padding-left:50px;">Product1 </th>
+          <td style="font-size:30px"><a data-bs-toggle="modal" data-bs-target="#PDF">
+            <i class="fa-regular fa-file-pdf"></i></a></td>
+          <td style="font-size:22px">1ST</td>
         </tr>
         <tr style="text-align: center">
-          <th style="text-align: left;padding-left:50px;">Market Research</th>
-          <td style="font-size:30px"><i class="fa-regular fa-square"></i></td>
+         <th style="text-align: left;padding-left:50px;">Product2</th>
+          <td style="font-size:30px"><a data-bs-toggle="modal" data-bs-target="#PDF">
+            <i class="fa-regular fa-file-pdf"></i></a></td>
+            <td style="font-size:22px">2ND</td>
         </tr>
         <tr style="text-align: center">
-          <th style="text-align: left;padding-left:50px;"><a data-bs-toggle="modal" data-bs-target="#Samples">Product Samples</a></th>
-          <td style="font-size:30px"><a data-bs-toggle="modal" data-bs-target="#Samples">
-            <i class="fa-regular fa-square"></i></a></td>
+         <th style="text-align: left;padding-left:50px;">Product3</a></th>
+          <td style="font-size:30px"><a data-bs-toggle="modal" data-bs-target="#PDF">
+            <i class="fa-regular fa-file-pdf"></i></a></td>
+          <td></td>
         </tr>
         <tr style="text-align: center">
-          <th style="text-align: left;padding-left:50px;">Joint Call</th>
-          <td style="font-size:30px"><i class="fa-regular fa-square"></i></td>
+         <th style="text-align: left;padding-left:50px;">Product4</th>
+          <td style="font-size:30px"><a data-bs-toggle="modal" data-bs-target="#PDF">
+            <i class="fa-regular fa-file-pdf"></i></a></td>
+          <td></td>
         </tr>
         <tr style="text-align: center">
-          <th style="text-align: left;padding-left:50px;">UA Activity 5</th>
-          <td style="font-size:30px"><i class="fa-regular fa-square"></i></td>
+         <th style="text-align: left;padding-left:50px;">Product5</th>
+          <td style="font-size:30px"><a data-bs-toggle="modal" data-bs-target="#PDF">
+            <i class="fa-regular fa-file-pdf"></i></a></td>
+          <td></td>
         </tr>
       </table>
     </div>
 
+    <div class="container-fluid">
+      <h5 style="text-align:left;font-size:20px">MD Behavior: </h5>
+      <div class="container" style="border:solid; border-radius:20px; border-width: 1px; border-color: rgb(18, 162, 162); width:640px; height:200px;">
+      </div>
+    </div>
     <div class="container" style="padding: 30px;">
       <center>
-      <a class="btn btn-primary" href="">SIGN</a>
+      <a class="btn btn-primary" href="call2.html">DONE</a>
     </div>
-<!-- 
-     <div class="container " style="margin-bottom:100px;margin-top:40px">
-      <p style="font-size: 18px;margin-bottom:5px">MD Signature #1</p>
-      <div class="container" style="border:solid; border-width: 1px; border-color: rgb(18, 162, 162); height:300px;">
-        <img src="images/sigbox.png" style="width:90%; "/><br>
-      </div>
-      <div class="container" style="padding: 10px 150px 40px 150px">
-        <ul class="nav nav-pills nav-justified">
-          <li class="nav-item" style="margin-right:30px">
-            <a class="nav-link active" style="background-color:#73d4d3" href="#" >Add Notes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Submit</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  -->
-
-
-
-</script>
+  </div> 
 </body>
 <script src="conv.js" crossorigin="anonymous"></script>
 </html>
