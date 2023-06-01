@@ -481,7 +481,7 @@ font-size:25px;
 .fixed_header thead tr {
 display: block;
 height: 60px;
-font-size: 25px;
+font-size: 20px;
 font-weight: 600;
 }
 .fixed_header thead {
@@ -492,7 +492,7 @@ vertical-align: middle;
 }
 .fixed_header th {
 padding: 22px;
-font-size:25px;
+font-size:22px;
 text-align: left;
 vertical-align: middle;
 height: 60px;

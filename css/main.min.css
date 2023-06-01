@@ -2819,10 +2819,10 @@ textarea.form-control-lg {
 }
 
 .btn {
-  --bs-btn-padding-x: 1.25rem;
+  --bs-btn-padding-x: 1rem;
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-font-family: Nunito;
-  --bs-btn-font-size: 22px;
+  --bs-btn-font-size: 14px;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #ffffff;
