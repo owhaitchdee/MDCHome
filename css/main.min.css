@@ -318,7 +318,7 @@ caption {
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
-  font-size:22px;
+  font-size:14px;
 }
 
 thead,
@@ -330,7 +330,7 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 label {
